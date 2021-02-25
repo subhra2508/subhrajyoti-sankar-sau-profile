@@ -5,14 +5,28 @@
 }
 body{
     font-family: 'Open Sans', sans-serif;
+    overflow-x:hidden;
 }
 .navbar{
     border:solid 2px red;
 }
-.navbar-section{
+.wrapper-navbar{
     display: flex;
-
+    justify-content: flex-end;
+    margin:2px;   
 }
+
+.wrapper-navbar li{
+    padding:2px;
+    border:2px solid red;
+    text-decoration: none;
+    list-style-type: none;
+    margin:5px;
+}
+.wrapper-navbar li:hover{
+    border:0px;
+}
+ 
 .container{
     height:400px;
     border:2px solid red;
@@ -48,8 +62,23 @@ body{
     align-self:center;
     border:solid 2px red;
 }
+ 
 .heading-about-me{
     text-align: center;
     font-weight: lighter;
     text-shadow: 1px 1px 2px;
+}
+.about-me-parts{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    
+    grid-gap:1em;
+    justify-content: space-around;
+}
+.write-about-yourself{
+    border:2px solid red;   
+}
+.tech-i-used{
+   border:2px solid yellow;
+   grid-row:;
 }
