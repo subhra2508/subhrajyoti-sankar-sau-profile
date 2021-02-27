@@ -30,7 +30,7 @@ body{
 .container{
     height:400px;
     border:2px solid red;
-    background-color: ;
+    background-color:;
 }
 .profile-2-parts{
     display:grid;
@@ -66,19 +66,42 @@ body{
 .heading-about-me{
     text-align: center;
     font-weight: lighter;
-    text-shadow: 1px 1px 2px;
+    margin:5px;
+    padding:5px;
+    text-shadow: 1px 1px 5px;
 }
 .about-me-parts{
     display:grid;
     grid-template-columns: 2fr 1fr;
-    
     grid-gap:1em;
     justify-content: space-around;
 }
 .write-about-yourself{
-    border:2px solid red;   
+    border:2px solid red;
+    box-shadow: 2px 2px 5px;
+    text-align: center;
+}
+#write-about-yourself-para{
+    
+    text-align: center;
+    margin-top:50%;
 }
 .tech-i-used{
-   border:2px solid yellow;
-   grid-row:;
+    display:grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+}
+.tech-i-used div{
+   border:2px solid red;
+   box-shadow: 2px 2px 10px;
+   opacity: 0.2;
+}
+.tech-i-used div:hover{
+    opacity: 1;
+    animation:change 2s linear;
+   
+}
+@keyframes change{
+   0%{
+    transform: scale(1.1);
+   }
 }
