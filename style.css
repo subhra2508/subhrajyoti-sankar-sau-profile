@@ -7,9 +7,10 @@
 body{
     font-family: 'Open Sans', sans-serif;
     overflow-x:hidden;
+    background-color: #efefef;
 }
 .navbar{
-    border:solid 2px red;
+    border:solid 2px  #ff7948;
 }
 .wrapper-navbar{
     display: flex;
