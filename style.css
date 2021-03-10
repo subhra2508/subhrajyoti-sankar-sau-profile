@@ -10,7 +10,7 @@ body{
     background-color: #efefef;
 }
 .navbar{
-    border:solid 2px  #ff7948;
+    border:solid 2px red;
 }
 .wrapper-navbar{
     display: flex;
