@@ -7,7 +7,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
     overflow-x:hidden;
-    background-color: #efefef;
+    /* background:black; */
 }
 .navbar{
     border:solid red;
@@ -41,7 +41,8 @@ body{
     justify-content: center;
     grid-gap: 1rem;
     border-radius:10px;
-    box-shadow: 2px 2px 10px;
+    box-shadow: 2px 2px 40px;
+    z-index: inherit;
     margin-top:50px;
     border:solid 2px red;
 }
@@ -54,10 +55,15 @@ body{
     text-shadow: 2px 2px 5px;
     color:rgb(34, 32, 32);   
 }
+.main-text > img{
+    width:50px;
+    border-radius:50%;
+}
 .profile-img{
     align-self:center;
     border:solid 2px red;
     padding-right:20px;
+   
 }
 .profile-img-ninja{
     border-radius:50%;
@@ -70,10 +76,10 @@ body{
     font-weight: lighter;
     margin:5px;
     padding:5px;
-    text-shadow: 2px 2px 5px;
+    text-shadow: 2px 2px 10px;
 }
 /* -----------------------------------------------------about me---------------------------------- */
-.about-me-parts{
+/* .about-me-parts{
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:1em;
@@ -87,7 +93,7 @@ body{
 /* .write-about-yourself{
    
 } */
-#write-about-yourself-para{
+/* #write-about-yourself-para{
     
     text-align: center;
     margin-top:50%;
@@ -117,7 +123,50 @@ body{
     transform: scale(1.2);
    }
 }
+ */
+ .about-me{
+    align-items: center;
+    text-shadow: 2px 2px 5px;
 
+ }
+ .subhra-img{
+    border-radius:50%;
+    animation:border-theme 10s ease-in-out  ;
+ }
+ .my-img{
+     text-align: center;
+    
+ }
+ @keyframes border-theme{
+     0%{
+        border:10px solid violet;
+        margin-top:-220px;
+     }
+     25%{
+        border:10px solid indigo;
+     }
+     50%{
+         border:10px solid blue;
+     }
+     70%{
+         border:10px solid green;
+     }
+     80%{
+         border:10px solid yellow;
+     }
+     90%{
+         border:10px solid orange;
+     }
+     100%{
+         border:10px solid red;
+     }
+ }
+
+.write-about-yourself{
+     text-align:center;
+     border:2px solid red;
+     
+ }
 
 
 /* ----------------------------------------projects-------------------------------- */
@@ -147,7 +196,7 @@ body{
     text-align: center;
     text-shadow: 2px 2px 5px;
     margin-bottom: 10px;
-    padding:20px;
+    padding:10px;
 }
 .form-container{
     border-radius:5px;
@@ -155,7 +204,7 @@ body{
     padding:20px;
 }
 input[type=text],select,textarea{
-    width:40%;
+    width:70%;
     padding:12px;
     border:1px solid #ccc;
     border-radius:4px;
