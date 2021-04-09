@@ -46,22 +46,26 @@ body{
     margin-top:50px;
     border:solid 2px red;
 }
+.hii{
+    text-shadow: 2px 2px 5px;
+}
 .main-text{
-    border:solid 2px red;
     justify-content: center;
     font-weight: lighter;
     text-align: center;
     align-self: center;
-    text-shadow: 2px 2px 5px;
+   
     color:rgb(34, 32, 32);   
 }
 .main-text > img{
     width:50px;
     border-radius:50%;
 }
+.img-2{
+    width:20px;
+}
 .profile-img{
     align-self:center;
-    border:solid 2px red;
     padding-right:20px;
    
 }
