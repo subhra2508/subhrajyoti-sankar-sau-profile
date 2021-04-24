@@ -13,10 +13,10 @@
 <body>
     <nav class="navbar">
         <ul  class="wrapper-navbar">
-            <li class="home"><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact me</a></li>
+            <li><a  class="active" href="#home">Home</a></li>
+            <li><a href="#section1">About</a></li>
+            <li><a href="#section2">Projects</a></li>
+            <li><a href="#section3">Contact me</a></li>
         </ul>
     </nav>
      <header>
@@ -38,8 +38,9 @@
             </div> 
          </div>
      </header>
+     <hr>
 
-     <div class="about-me" >
+     <div class="about-me" id="section1" >
          <h1 class="heading-about-me">About Me</h1>
           <div class="my-img"><img class="subhra-img"src="./images/ninja.png" alt="" style="width:300px;height:300px;border-radius:50px;"> </div>
          <h3 class="write-about-yourself">write about yourself</h3>
@@ -75,16 +76,17 @@
             Download resume</a></button>
      </div>
 
-     <div class="project-container"id="projects">
+     <div class="project-container"id="section2">
          <h1 class="project-header">Projects</h1>
          <div class="project-body">
              <div>project1</div>
              <div>project2</div>
              <div>project3</div>
              <div>project4</div>
+             <a href="#">More...</a>
          </div>
      </div>
-     <div class=" container contact">
+     <div class="container contact" id="section3">
         <h1 class="contact-form-header">Contact Form</h1>
         <div class="form-container">
             <form action=""method="POST">
@@ -98,6 +100,6 @@
             </form>
         </div>
      </div>
-     Build with passion😎 and love ❤ with some coffee☕...🚀
+     Build with passion😎 , love ❤ and with some coffee☕...🚀
 </body>
 </html>

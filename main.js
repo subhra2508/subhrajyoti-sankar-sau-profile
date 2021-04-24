@@ -1,1 +1,1 @@
-console.log('subhrajyoti sankar sau.');
+'use strict';
